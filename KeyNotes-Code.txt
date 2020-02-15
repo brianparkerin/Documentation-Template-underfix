@@ -1,0 +1,105 @@
+          <!--AQUI COMIENZA EL CONTINER PARA TODA LA NAVBAR-->
+
+            <nav class="navbar navbar-expand-lg shadow-sm align-items-center p-3">
+
+                    <!--AQUI COMIENZA EL CONTAINER DEL LOGO CORPORATIVO-->          
+                           <div class="container">
+                            <a class="navbar-brand ml-left" href="#">
+                                    <img src="../img/logotype.png" width="70%" height="75%" class="d-inline-block align-top">      
+                                  </a>
+                           </div>
+                    
+                    <!--AQUI COMIENZA DROPDOWN FORM - SIGN IN ITEM-->
+                    <div class="collapse navbar-collapse col-3 d-flex" id="navbarNav">
+                      <ul class="navbar-nav">
+                          <li class="nav-item active dropdown">
+                              <a class="nav-link dropdown-toggle-light text-light mr-sm-3" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Sign In <span class="caret"></span>
+                              </a>
+                                      <div class="dropdown-menu dropdown-menu-right">
+                                              <form class="px-4 py-3">
+                                                <div class="form-group">
+                                                  <label for="exampleDropdownFormEmail1">Email Address</label>
+                                                  <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                                                </div>
+                                                <div class="form-group">
+                                                  <label for="exampleDropdownFormPassword1">Password</label>
+                                                  <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                                                <div class="form-group">
+                                                  <div class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                                    <label class="form-check-label" for="dropdownCheck"> Remember me
+                                                    </label>
+                                                  </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-sm btn-dark border-light btn-lg btn-block">Sign In</button>
+                                              </form>
+                                              <a class="dropdown-item text-muted text-link" href="#"><small> Forgot your password?</small></a>
+                                                </div>
+                                              
+                                          </div>
+                          </li>
+
+                                        <!--AQUI COMIENZA SIGN UP BUTTON-->
+                                        <li class="nav-item active">
+                                                <form class="form-inline">
+                                        <a class="btn btn-dark border-light bg-dark text-light btn-outline-primary" href="#">Sign Up</a>
+                                                </form>
+                                        </li>
+                                    </ul>
+                
+            </nav>
+
+
+
+        <!--BLOCK CONTENT-->
+        
+ 
+                    
+                    <H1>HELLO WORLD</H1>
+            
+        
+
+
+
+        
+
+
+<!--ORIGINAL CODE FOR DOCUMENTATION FOOTER-->
+
+
+        <div class="footer-clean">
+          
+          <footer>
+              <div class="container pt-4 my-md-5 pt-md-5 border-top">
+                  <div class="row justify-content-center ">
+                      <div class="col-sm-4 col-md-3 item">
+                          <h3>Services</h3>
+                          <ul>
+                              <li><a href="#">Web design</a></li>
+                              <li><a href="#">Development</a></li>
+                              <li><a href="#">Hosting</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4 col-md-3 item">
+                          <h3>About</h3>
+                          <ul>
+                              <li><a href="#">Company</a></li>
+                              <li><a href="#">Team</a></li>
+                              <li><a href="#">Legacy</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-4 col-md-3 item">
+                          <h3>Careers</h3>
+                          <ul>
+                              <li><a href="#">Job openings</a></li>
+                              <li><a href="#">Employee success</a></li>
+                              <li><a href="#">Benefits</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-3 item social"><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-github"></i></a>
+                        <p class="copyright"><small> by underfix, Inc. &copy; 2020 </small></p>
+                      </div>
+                  </div>
+              </div>
+          </footer>

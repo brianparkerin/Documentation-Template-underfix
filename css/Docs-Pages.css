@@ -1,0 +1,112 @@
+
+body {
+    background-color: #fff;
+    color: #000;
+}
+.navbar {
+    background-color: #24292e;;
+    color: #fff;
+}
+
+
+/* --- DROPDOWN MENU SIGN IN --- */
+
+
+
+
+
+
+
+
+/* --- BEGAN FOOTER --- */
+  .footer-clean {
+    padding:50px 0;
+    background-color:#fff;
+    color: #586069!important;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  }
+  
+  .footer-clean h3 {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace!important;
+    box-sizing: border-box;
+    margin-top: 0;
+    color: #6a737d!important;
+    margin-bottom: 16px!important;
+    font-size: 14px!important;
+    font-weight: 400!important;
+  }
+  
+  .footer-clean ul {
+    padding:0;
+    list-style:none;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+    line-height: 2.4!important;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-clean .item.social {
+    text-align:right;
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-clean .item.social {
+      text-align:center;
+    }
+  }
+  
+  .footer-clean .item.social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin-left:10px;
+    margin-top:22px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-clean .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  @media (max-width:991px) {
+    .footer-clean .item.social > a {
+      margin-top:40px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer-clean .item.social > a {
+      margin-top:10px;
+    }
+  }
+  
+  .footer-clean .copyright {
+    margin-top:14px;
+    margin-bottom:0;
+    font-size:13px;
+    opacity:0.6;
+  }
+  
+
